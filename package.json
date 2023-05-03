@@ -1,0 +1,22 @@
+{
+  "name": "gml-cli",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "start": "node src/index.js -i index.gml",
+    "build": "node build.js",
+    "build.run": ".\\bin\\gml.exe -i index.gml",
+    "build.build": ".\\bin\\gml.exe -i index.gml -b test_program.exe",
+    "full.build": "npm run build && npm run build.build"
+  },
+  "keywords": [],
+  "author": "Topher Anselmo <christopherwk210@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.8",
+    "pkg": "^5.8.1"
+  },
+  "engines": {
+    "node": ">=14.16"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "pkg": {
+    "scripts": "./src/index.js",
+    "assets": [
+      "./src/index.js",
+      "./src/interop.js",
+      "./src/builder.js"
+    ],
+    "targets": ["node18-win-x64"],
+    "outputPath": "./bin"
+  }
+}
